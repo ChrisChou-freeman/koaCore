@@ -16,4 +16,5 @@ const request = {
     return url.parse(this.req.url).query;
   }
 }
-module.exports = request
+
+module.exports = request;
