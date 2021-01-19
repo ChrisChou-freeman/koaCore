@@ -70,6 +70,10 @@ class Koa extends EventEmitter {
     const server = http.createServer(this.handleRequest.bind(this));
     server.listen(...args);
   }
+
+  callback(){
+    return this.handleRequest.bind(this);
+  }
 }
 
 module.exports = Koa;
