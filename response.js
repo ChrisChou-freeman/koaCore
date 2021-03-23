@@ -1,6 +1,3 @@
-
-'use strict';
-
 const response = {
   get body(){
     return this._body;
@@ -13,4 +10,3 @@ const response = {
 };
 
 export default response;
-// module.exports = response;

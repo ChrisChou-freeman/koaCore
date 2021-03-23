@@ -1,12 +1,9 @@
-
-'use strict';
-
 import {default as http} from 'http';
 import {default as EventEmitter} from 'events';
+import {default as Stream} from 'stream';
 import {default as context} from './context.js';
 import {default as request} from './request.js';
 import {default as response} from './response.js';
-import {default as Stream} from 'stream';
 
 class Koa extends EventEmitter {
   constructor () {
