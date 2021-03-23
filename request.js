@@ -1,7 +1,8 @@
 
 'use strict';
 
-const url = require('url');
+// const url = require('url');
+import {default as url} from 'url';
 
 const request = {
   get url(){
@@ -17,4 +18,5 @@ const request = {
   }
 }
 
-module.exports = request;
+export default request;
+// module.exports = request;

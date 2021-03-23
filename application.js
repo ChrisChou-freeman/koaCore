@@ -1,12 +1,12 @@
 
 'use strict';
 
-const http = require('http');
-const EventEmitter = require('events');
-const context = require('./context');
-const request = require('./request');
-const response = require('./response');
-const Stream = require('stream');
+import {default as http} from 'http';
+import {default as EventEmitter} from 'events';
+import {default as context} from './context.js';
+import {default as request} from './request.js';
+import {default as response} from './response.js';
+import {default as Stream} from 'stream';
 
 class Koa extends EventEmitter {
   constructor () {
@@ -76,4 +76,4 @@ class Koa extends EventEmitter {
   }
 }
 
-module.exports = Koa;
+export default Koa;

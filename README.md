@@ -1,7 +1,7 @@
 about
 ----------------
 
-example about koa core code, in order to study the Koa source code
+for understand how Koa works
 
 test project just run 
 ```shell

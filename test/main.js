@@ -1,4 +1,4 @@
-const Koa = require('../application');
+import {default as Koa} from '../application.js';
 
 const app = new Koa();
 

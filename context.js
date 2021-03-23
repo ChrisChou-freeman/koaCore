@@ -20,4 +20,4 @@ defineGetter('request', 'path');
 defineGetter('response', 'body');
 defineSetter('response', 'body');
 
-module.exports = proto;
+export default proto;
