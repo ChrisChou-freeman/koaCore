@@ -1,7 +1,7 @@
 about
 ----------------
 
-for understand how Koa works
+basic example for understand how Koa works
 
 test project just run 
 ```shell
