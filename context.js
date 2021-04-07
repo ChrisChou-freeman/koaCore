@@ -1,6 +1,3 @@
-
-'use strict';
-
 const proto = {};
 
 function defineGetter(prop, name){

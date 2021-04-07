@@ -1,4 +1,4 @@
-import {default as url} from 'url';
+import URL from 'url';
 
 const request = {
   get url(){
@@ -6,11 +6,11 @@ const request = {
   },
 
   get path(){
-    return url.parse(this.req.url).pathname;
+    return new URL(this.req.url).pathname;
   },
 
   get query() {
-    return url.parse(this.req.url).query;
+    return new URL(this.req.url).query;
   }
 }
 

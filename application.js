@@ -1,9 +1,9 @@
-import {default as http} from 'http';
-import {default as EventEmitter} from 'events';
-import {default as Stream} from 'stream';
-import {default as context} from './context.js';
-import {default as request} from './request.js';
-import {default as response} from './response.js';
+import http  from 'http';
+import EventEmitter from 'events';
+import Stream from 'stream';
+import context from './context.js';
+import request from './request.js';
+import response from './response.js';
 
 class Koa extends EventEmitter {
   constructor () {
